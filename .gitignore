@@ -1,15 +1,21 @@
-__pycache__/
-*.pyc
-.pytest_cache/
-.env
-*.egg-info/
-dist/
-build/
-.venv/
+# .gitignore
+
+# ignore node_modules and yarn.lock
 node_modules/
+yarn.lock
+
+# ignore rust artifacts
 target/
-bin/
-obj/
-*.o
-*.so
-*.dylib/
+
+# ignore IDE files
+.idea/
+.vscode/
+
+# ignore docker stuff
+docker-compose.yml
+docker/
+
+# ignore other stuff
+*.log
+*.tmp
+*.swp
