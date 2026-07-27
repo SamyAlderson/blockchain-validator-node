@@ -1,19 +1,20 @@
 # .gitignore
 
-# ignore node modules
+# ignore node_modules
 node_modules/
 
 # ignore rust artifacts
 target/
 
-# ignore python cache
-.cache/
+# ignore IDE files
+.idea/
+.vscode/
 
-# ignore pip packages
-pip_packages/
+# ignore other IDE files
+*.iml
+*.class
+*.exe
 
-# ignore vscode temp files
-.vscode/temp/
-
-# ignore vscode settings
-.vscode/settings.json
+# ignore other stuff
+*.log
+*.tmp
