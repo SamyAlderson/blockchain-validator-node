@@ -1,20 +1,34 @@
 # .gitignore
-
-# ignore node_modules
+# ignore node_modules and yarn.lock
 node_modules/
+yarn.lock
 
-# ignore rust artifacts
+# ignore rust cache
 target/
 
 # ignore IDE files
 .idea/
 .vscode/
 
-# ignore other IDE files
-*.iml
-*.class
-*.exe
+# ignore macOS files
+.DS_Store
 
-# ignore other stuff
-*.log
-*.tmp
+# ignore Windows files
+Thumbs.db
+
+# ignore Linux files
+._*
+
+# ignore Docker files
+docker-compose.yml
+docker-compose.yaml
+dockerignore
+
+# ignore VS Code settings
+.vscode/settings.json
+
+# ignore Python cache
+__pycache__/
+
+# ignore Python log files
+.log
